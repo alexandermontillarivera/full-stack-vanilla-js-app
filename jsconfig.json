@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#constants": ["./src/constants.js"],
+      "#config/*": ["./src/config/*"],
+      "#loadEnv": ["./src/modules/loadEnv.js"],
+      "#server": ["./src/modules/server.js"],
+      "#models/*": ["./src/models/*"],
+      "@components/*": ["./public/js/components/*"],
+      "@constants": ["./public/js/constants.js"],
+      "@services/*": ["./public/js/services/*"]
+    }
+  }
+}

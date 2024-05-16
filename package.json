@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "imports": {
+    "#loadEnv": "./src/modules/loadEnv.js",
+    "#constants": "./src/constants.js",
+    "#config/*": "./src/config/*",
+    "#models/*": "./src/models/*",
+    "#server": "./src/modules/server.js"
+  },
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
